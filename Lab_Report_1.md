@@ -13,8 +13,7 @@ A few criterias to keep in mind before resetting your password.
 4) The password mustn’t be your name.
 
 
-**TIP:** If you really don't want to change your password, make minor changes to the existing password and try resetting. There are chances that this process
-may take a while.\ 
+**TIP:** If you really don't want to change your password, make minor changes to the existing password and try resetting. There are chances that this process may take a while.\
 Sometimes resetting your password can be a time consuming process. The system will either not approve the password you reset and ask you to make a
 new one again and if and once it approves the new password it will take around 15-20 minutes for the new password to be finally updated in the system 
 and your account will be in use again. But it can take more than 15-20 minutes, so just be patient :).\

@@ -29,13 +29,13 @@ We will go over these steps one by one so that there's no confusion and the proc
 ## **STEP 1:** *Installing VScode* 
 \
 If you are a CSE Major or have previously taken any CSE courses, you are most likely to already have VScode on your system. But if you don't, you have 
-nothing to worry about. You can visit this site [https://code.visualstudio.com/] and read the instructions and complete the download of VScode on
+nothing to worry about. You can visit this site <https://code.visualstudio.com/> and read the instructions and complete the download of VScode on
 your system. They have listed how to download the application for all major operating systems.
 
 
 When you open VScode after the download is complete, you will see such a window open.\
 \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/VScode.png)\
+![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/VScode.png)
 \
 The color of the window may differ. If you choose to keep light mode then the window that is opened will be white in color and if you choose to keep dark mode
 then the window will appear dark.\

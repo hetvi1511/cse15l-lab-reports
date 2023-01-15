@@ -3,14 +3,16 @@
 Firstly, let's get a brief of how and why remote access is important and how beneficial it can be. The purpose of remote connect is that it allows you 
 to virtually use any computer or device after establishing a connection with it.\
 Now to remotely connect YOUR system to the CSE Basement systems you'll need to keep a few things in mind.
-- You will have to keep your CSE 15L, course specific account name handy.\
-- Use your normal UCSD username and password to login into this site <https://sdacs.ucsd.edu/~icc/index.php>.\
-- Once you've successfully logged in to your account, you will be asked to reset your password. Now this part can get a little tricky and time consuming.\
-A few criterias to keep in mind before resetting your password.\
+- You will have to keep your CSE 15L, course specific account name handy.
+- Use your normal UCSD username and password to login into this site <https://sdacs.ucsd.edu/~icc/index.php>.
+- Once you've successfully logged in to your account, you will be asked to reset your password. Now this part can get a little tricky and time consuming.
+A few criterias to keep in mind before resetting your password.
 1) The password must be 12-30 characters long.
 2) The password should contain uppercase alphabets, lowercase alphabets and special characters.
 3) The password cannot contain consecutive letters and numbers.
-4) The password mustn’t be your name.\ 
+4) The password mustn’t be your name.
+
+
 **TIP:** If you really don't want to change your password, make minor changes to the existing password and try resetting. There are chances that this process
 may take a while.\ 
 Sometimes resetting your password can be a time consuming process. The system will either not approve the password you reset and ask you to make a

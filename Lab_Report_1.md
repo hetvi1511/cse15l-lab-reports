@@ -23,6 +23,8 @@ There are 3 major steps involved in this process, they are as follows:
 - Installing VScode
 - Remotely Connecting 
 - Trying Some Commands
+
+
 We will go over these steps one by one so that there's no confusion and the process goes by as smoothly as it possibly can :)
 
 

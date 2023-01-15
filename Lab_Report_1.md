@@ -19,27 +19,29 @@ new one again and if and once it approves the new password it will take around 1
 and your account will be in use again. But it can take more than 15-20 minutes, so just be patient :).\
 \
 Now that we have completed the few necessary steps to complete the remote connection smoothly, we can proceed. 
-There are 3 major steps involved in this process, they are as follows:\
+There are 3 major steps involved in this process, they are as follows:
 - Installing VScode
 - Remotely Connecting 
-- Trying Some Commands\
+- Trying Some Commands
 We will go over these steps one by one so that there's no confusion and the process goes by as smoothly as it possibly can :)\
-\
-\
-## **STEP 1:** *Installing VScode* \
+
+
+## **STEP 1:** *Installing VScode* 
 \
 If you are a CSE Major or have previously taken any CSE courses, you are most likely to already have VScode on your system. But if you don't, you have 
-nothing to worry about. You can visit this site [Link](https://code.visualstudio.com/) and read the instructions and complete the download of VScode on
-your system. They have listed how to download the application for all major operating systems.\
+nothing to worry about. You can visit this site [https://code.visualstudio.com/] and read the instructions and complete the download of VScode on
+your system. They have listed how to download the application for all major operating systems.
+
+
 When you open VScode after the download is complete, you will see such a window open.\
 \
 ![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/VScode.png)\
 \
 The color of the window may differ. If you choose to keep light mode then the window that is opened will be white in color and if you choose to keep dark mode
 then the window will appear dark.\
-\
-\
-## **STEP 2:** *Remotely Connecting*\
+
+
+## **STEP 2:** *Remotely Connecting*
 \
 This step now has fairly become easier because we have directly and indirectly explained what you will "Need". Let's dive right into it.\
 Now to use ssh, open a new terminal on VScode and add a similar command of this same format.\
@@ -60,29 +62,33 @@ After typing the password and if the connection is successful, this is what will
 ![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/connection_success.png)\
 \
 This means you've successfully connected your device to a remote server. GOOD JOB !!\
-\
-\
-## **STEP 3:** *Trying Some Commands*\
+
+
+## **STEP 3:** *Trying Some Commands*
 \
 Now we can test some basic commands and get an idea of what to expect as the output. In CS not getting any error or any message is most of the time a
 good sign. Some of the commands we run will give no output and that is okay, it doesn't mean anything is wrong, that's the desired response we should
 be expecting. Here are a few of the commands you can try:\
-- cd ~
+- cd ~\
 A common mistake made with this command is not adding a space between "cd" and "~".\
 \
 This is what you'll see after the command is executed successfully\
 ![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cd%20~.png)\
-\
+
+
 - ls -lat \
 This is what you'll see after the command is executed successfully \
 ![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/ls%20-lat.png)\
-\
+
+
 - cat /home/linux/ieng6/cs15lwi23/public/hello.txt \
 This is what you'll see after the command is executed successfully \
 ![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cat.png)\
-\
-\
+
+
+
+
 This brings us to the end of setting up the remote connection. If there are any questions or you see different prompts on your screen, always feel free 
 to ask the tutors. They are always ready to help and give very helpful tips.\
 \
-Good Job ! You're done with your first lab.\
+Good Job ! You're done with your first lab.

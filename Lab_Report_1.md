@@ -2,7 +2,7 @@
 
 Firstly, let's get a brief of how and why remote access is important and how beneficial it can be. The purpose of remote connect is that it allows you 
 to virtually use any computer or device after establishing a connection with it.\
-Now to remotely connect YOUR system to the CSE Basement systems you'll need to keep a few things in mind.\
+Now to remotely connect YOUR system to the CSE Basement systems you'll need to keep a few things in mind.
 - You will have to keep your CSE 15L, course specific account name handy.\
 - Use your normal UCSD username and password to login into this site <https://sdacs.ucsd.edu/~icc/index.php>.\
 - Once you've successfully logged in to your account, you will be asked to reset your password. Now this part can get a little tricky and time consuming.\

@@ -71,25 +71,27 @@ This means you've successfully connected your device to a remote server. GOOD JO
 Now we can test some basic commands and get an idea of what to expect as the output. In CS not getting any error or any message is most of the time a
 good sign. Some of the commands we run will give no output and that is okay, it doesn't mean anything is wrong, that's the desired response we should
 be expecting. Here are a few of the commands you can try:
-- cd ~
+- `cd ~`
 
 
 A common mistake made with this command is not adding a space between "cd" and "~".\
 \
 This is what you'll see after the command is executed successfully\
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cd%20~.png)
+![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cd%20~.png)\
+`cd ~`, cd stands for change directory. Normally we are required to specify which directory we want to change to, but the tilde (~) in this command takes us directly to the home directory.
 
 
-- ls -lat \
+- `ls -lat` \
 This is what you'll see after the command is executed successfully \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/ls%20-lat.png)
+![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/ls%20-lat.png)\
+`ls -lat`, ls is used to list files. The latter `-lat` part displays the hidden files in the current directory. In this case our current directory is our home directory because we have implemented `cd ~` as the previous command.
 
 
-- cat /home/linux/ieng6/cs15lwi23/public/hello.txt \
+- `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` \
 This is what you'll see after the command is executed successfully \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cat.png)
-
-
+![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cat.png)\
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`, cat is short for concatenate. Adding a path along with `cat` adds the contents on that text file and redirects the output to the terminal.\
+\
 
 
 This brings us to the end of setting up the remote connection. If there are any questions or you see different prompts on your screen, always feel free 

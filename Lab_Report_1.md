@@ -29,7 +29,7 @@ We will go over these steps one by one so that there's no confusion and the proc
 
 
 ## **STEP 1:** *Installing VScode* 
----
+
 \
 If you are a CSE Major or have previously taken any CSE courses, you are most likely to already have VScode on your system. But if you don't, you have 
 nothing to worry about. You can visit this site <https://code.visualstudio.com/> and read the instructions and complete the download of VScode on
@@ -45,7 +45,7 @@ then the window will appear dark.
 
 
 ## **STEP 2:** *Remotely Connecting*
----
+
 \
 This step now has fairly become easier because we have directly and indirectly explained what you will "Need". Let's dive right into it.\
 Now to use ssh, open a new terminal on VScode and add a similar command of this same format.\
@@ -69,7 +69,7 @@ This means you've successfully connected your device to a remote server. GOOD JO
 
 
 ## **STEP 3:** *Trying Some Commands*
----
+
 \
 Now we can test some basic commands and get an idea of what to expect as the output. In CS not getting any error or any message is most of the time a
 good sign. Some of the commands we run will give no output and that is okay, it doesn't mean anything is wrong, that's the desired response we should
@@ -77,7 +77,7 @@ be expecting. Here are a few of the commands you can try:
 - `cd ~`
 
 
-A common mistake made with this command is not adding a space between cd and ~.\
+A common mistake made with this command is not adding a space between `cd` and `~`.\
 \
 This is what you'll see after the command is executed successfully\
 ![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cd%20~.png)\

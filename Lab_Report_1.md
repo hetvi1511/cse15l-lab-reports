@@ -80,13 +80,13 @@ be expecting. Here are a few of the commands you can try:
 A common mistake made with this command is not adding a space between `cd` and `~`.\
 \
 This is what you'll see after the command is executed successfully\
-![cd](cd ~.png)\
+![cd](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cd%20~.png)\
 `cd ~`, `cd` stands for change directory. Normally we are required to specify which directory we want to change to, but the tilde (~) in this command takes us directly to the home directory.
 
 
 - `ls -lat` \
 This is what you'll see after the command is executed successfully \
-![ls](ls -lat.png)\
+![ls](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/ls%20-lat.png)\
 `ls -lat`, `ls` is used to list files. The latter `-lat` part displays the hidden files in the current directory. In this case our current directory is our home directory because we have implemented `cd ~` as the previous command.
 
 

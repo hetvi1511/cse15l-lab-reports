@@ -50,7 +50,7 @@ then the window will appear dark.
 This step now has fairly become easier because we have directly and indirectly explained what you will "Need". Let's dive right into it.\
 Now to use ssh, open a new terminal on VScode and add a similar command of this same format.\
 \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/ssh.png)\
+![ssh](ssh.png)\
 \
 This address has to be replaced by your course specific. You have to add "@ieng6.ucsd.edu" after typing your course specific username.\
 \
@@ -59,11 +59,11 @@ continue connecting, answer yes and proceed to the next step. Next step is just 
 When typing in the password be very careful, because you will not be able to view what you're typing in the terminal. If you feel like you've 
 made a mistake then press backspace for a while till you're confident that everything you've typed has been deleted.\
 \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/password.png)\
+![password](password.png)\
 \
 After typing the password and if the connection is successful, this is what will appear on the screen.\
 \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/connection_success.png)\
+![success](connection_success.png)\
 \
 This means you've successfully connected your device to a remote server. GOOD JOB !!
 
@@ -80,19 +80,19 @@ be expecting. Here are a few of the commands you can try:
 A common mistake made with this command is not adding a space between `cd` and `~`.\
 \
 This is what you'll see after the command is executed successfully\
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cd%20~.png)\
+![cd](cd%20~.png)\
 `cd ~`, `cd` stands for change directory. Normally we are required to specify which directory we want to change to, but the tilde (~) in this command takes us directly to the home directory.
 
 
 - `ls -lat` \
 This is what you'll see after the command is executed successfully \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/ls%20-lat.png)\
+![ls](ls%20-lat.png)\
 `ls -lat`, `ls` is used to list files. The latter `-lat` part displays the hidden files in the current directory. In this case our current directory is our home directory because we have implemented `cd ~` as the previous command.
 
 
 - `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` \
 This is what you'll see after the command is executed successfully \
-![](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/cat.png)\
+![cat](cat.png)\
 `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`, `cat` is short for concatenate. Adding a path along with `cat` adds the contents on that text file and redirects the output to the terminal.\
 \
 

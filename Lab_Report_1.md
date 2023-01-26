@@ -99,5 +99,6 @@ This is what you'll see after the command is executed successfully \
 
 This brings us to the end of setting up the remote connection. If there are any questions or you see different prompts on your screen, always feel free 
 to ask the tutors. They are always ready to help and give very helpful tips.\
-\
+
+
 Good Job ! You're done with your first lab.

@@ -94,7 +94,7 @@ This is what you'll see after the command is executed successfully \
 This is what you'll see after the command is executed successfully \
 ![cat](cat.png)\
 `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`, `cat` is short for concatenate. Adding a path along with `cat` adds the contents on that text file and redirects the output to the terminal.\
-\
+
 
 
 This brings us to the end of setting up the remote connection. If there are any questions or you see different prompts on your screen, always feel free 

@@ -38,7 +38,7 @@ your system. They have listed how to download the application for all major oper
 
 When you open VScode after the download is complete, you will see such a window open.\
 \
-![](VScode.png)
+![VScode](VScode.png)
 \
 The color of the window may differ. If you choose to keep light mode then the window that is opened will be white in color and if you choose to keep dark mode
 then the window will appear dark.

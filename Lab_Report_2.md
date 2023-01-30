@@ -17,7 +17,7 @@ The JUnit test I wrote with a failure inducing input is as follows:
     assertArrayEquals(new int[] {5,4,3,2,1}, input);
   }
 ```
-This does not give us the desired output. The output this prints is {5,4,3,4,5}.\
+This does not give us the desired output. The output this prints is {5,4,3,4,5}.
 
 
 The JUnit test runs perfectly fine without making any chances to the code of `reversedInPlace` if the input is different.\
@@ -36,11 +36,11 @@ This gives us the desired output. But that does not mean the code is fixed.
 
 The following messages are displyed while running the above mentioned tests.\
 The test `testReversedInPlace()` passes. The green tick on the left-hand side indicates the same.\
-![Image](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/Passing_Test.png)\
+![Image](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/Passing_Test.png)
 
 
 The test `testReversedInPlace2()` fails. The expected value and actual value do not match.\
-![Image](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/Failure_Inducing_Input.png)\
+![Image](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/Failure_Inducing_Input.png)
 
 
 The bug in `reversedInPlace` is, it reverses the elements but after reaching halfway through the array the for loop starts using the new reversed values
@@ -71,7 +71,7 @@ static void reverseInPlace(int[] arr) {
 ```
 
 
-By making the following changes, we go from 0th index to the index at the middle of the array. For each, we switch with the last element.\
+By making the following changes, we go from 0th index to the index at the middle of the array. For each, we switch with the last element.
 
 
 ## Part 3: New Learnings from Lab 2 and Lab 3

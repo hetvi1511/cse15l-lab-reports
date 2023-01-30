@@ -99,7 +99,7 @@ The test `testReversedInPlace()` passes. The green tick on the left-hand side in
 
 
 The test `testReversedInPlace2()` fails. The expected value and actual value do not match.\
-![Failing](Failure_Inducing_input.png)
+![Failing](Failure_Inducing_Input.png)
 
 
 The bug in `reversedInPlace` is, it reverses the elements but after reaching halfway through the array the for loop starts using the new reversed values

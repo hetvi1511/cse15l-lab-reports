@@ -95,11 +95,11 @@ This gives us the desired output. But that does not mean the code is fixed.
 
 The following messages are displyed while running the above mentioned tests.\
 The test `testReversedInPlace()` passes. The green tick on the left-hand side indicates the same.\
-![Image](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/Passing_Test.png)
+![Image](Passing_Test.png)
 
 
 The test `testReversedInPlace2()` fails. The expected value and actual value do not match.\
-![Image](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/Failure_Inducing_Input.png)
+![Image]?(Failure_Inducing_Input.png)
 
 
 The bug in `reversedInPlace` is, it reverses the elements but after reaching halfway through the array the for loop starts using the new reversed values

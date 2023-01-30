@@ -48,15 +48,15 @@ class StringServer {
 }
 ```
 Before any string is added, the web server looks like this.\
-![]()
+![Before](Before .png)
 
 
 After adding one string, this is what the web server looked like.\
-![]()
+![One String](OneString.png)
 
 
 After adding another string, this is what the web server looked like.\
-![]()
+![Multiple String](MultipleStrings.png)
 
 
 The URLHandler method is called in both cases and the relevant argument is the URL. It changes what is returned as well as the URL.
@@ -95,11 +95,11 @@ This gives us the desired output. But that does not mean the code is fixed.
 
 The following messages are displyed while running the above mentioned tests.\
 The test `testReversedInPlace()` passes. The green tick on the left-hand side indicates the same.\
-![Image](Passing_Test.png)
+![Successful](Passing_Test.png)
 
 
 The test `testReversedInPlace2()` fails. The expected value and actual value do not match.\
-![Image]?(Failure_Inducing_Input.png)
+![Failing](Failure_Inducing_input.png)
 
 
 The bug in `reversedInPlace` is, it reverses the elements but after reaching halfway through the array the for loop starts using the new reversed values

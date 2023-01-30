@@ -48,7 +48,7 @@ class StringServer {
 }
 ```
 Before any string is added, the web server looks like this.\
-![Before](Before .png)
+![Before](Before.png)
 
 
 After adding one string, this is what the web server looked like.\

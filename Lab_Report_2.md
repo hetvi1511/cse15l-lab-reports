@@ -59,7 +59,7 @@ After adding another string, this is what the web server looked like.\
 ![Multiple String](MultipleStrings.png)
 
 
-The URLHandler method is called in both cases and the relevant argument is the URL. It changes what is returned as well as the URL.
+The URLHandler method is called in both cases and the relevant argument is the URL. It changes what is returned as well as the URL. As mentioned above, we have added a `\n` character which places the cursor in the next line. Since the next line has no data, the string that we input gets stored in that line and the cursor again moves to the next line. This is why the contents in the previous line remain as they were. 
 
 
 ## Part 2: One bug from Lab 3

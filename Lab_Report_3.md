@@ -21,7 +21,7 @@ Example 1:\
 grep -c "Amsterdam" travel_guides/berlitz2/Amsterdam-WhereToGo.txt
 ```
 *Output*\
-![Amsterdam](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-c%20amsterdam.png)
+![Amsterdam](-c amsterdam.png)
 
 Example 2:\
 *Command-line statement*

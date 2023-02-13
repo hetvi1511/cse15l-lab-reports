@@ -54,12 +54,14 @@ grep -n "hetvi" *
 ```
 *Output*\
 ![hetvi](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-n%20hetvi.png)
-When no match is found it returns 0 for all files in the specified path.
+When no match is found it returns the files/folders in that directory (sub-files/sub-directories are not included).
 
 
 
 **`grep -i`**\
-The -i option searches for the given string without keeping the specific case of the alphabets. It basically searches for the string case insensitively.\
+The -i option searches for the given string without keeping the specific case of the alphabets. It basically searches for the string case insensitively.
+
+
 Example 1:\
 *Command-line statement*
 ```
@@ -79,7 +81,9 @@ grep -i "PUERTO" travel_guides/berlitz2/Vallarta-History.txt
 ![puerto](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-i%20puerto.png)
 
 **`grep "^query"`**\
-The ^query option helps us to match the lines that start with the specified query.\
+The ^query option helps us to match the lines that start with the specified query.
+
+
 Example 1:\
 *Command-line statement*
 ```
@@ -96,8 +100,8 @@ Example 2:\
 grep "^Gandhi" non-fiction/OUP/Rybczynski/ch3.txt
 ```
 *Output*\
-![gandhi](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/%5E%20gandhi.png)
+![gandhi](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/%5E%20gandhi.png)\
 When no line starts with the speicfied query, it displays nothing.
 
 
-I did all my research on grep command-lne options from [GeeksForGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+I did all my research on grep command-lne options from [GeeksForGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).

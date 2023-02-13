@@ -53,7 +53,7 @@ Example 2:\
 grep -n "hetvi" *
 ```
 *Output*\
-![hetvi](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-n%20hetvi.png)
+![hetvi](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-n%20hetvi.png)\
 When no match is found it returns the files/folders in that directory (sub-files/sub-directories are not included).
 
 

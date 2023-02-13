@@ -21,7 +21,7 @@ Example 1:\
 grep -c "Amsterdam" travel_guides/berlitz2/Amsterdam-WhereToGo.txt
 ```
 *Output*\
-![Amsterdam](-c amsterdam.png)
+![Amsterdam](-camsterdam.png)
 
 Example 2:\
 *Command-line statement*
@@ -30,7 +30,7 @@ Example 2:\
 grep -c "this" */*/*/*
 ```
 *Output*\
-![this](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-c%20this.png)
+![this](-cthis.png)
 
 
 **`grep -n`**\
@@ -44,7 +44,7 @@ Example 1:\
 grep -n "this" non-fiction/OUP/Castro/chC.txt
 ```
 *Output*\
-![this](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-n%20this.png)
+![this](-nthis.png)
 
 Example 2:\
 *Command-line statement*
@@ -53,7 +53,7 @@ Example 2:\
 grep -n "hetvi" *
 ```
 *Output*\
-![hetvi](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-n%20hetvi.png)\
+![hetvi](-nhetvi.png)\
 When no match is found it returns the files/folders in that directory (sub-files/sub-directories are not included).
 
 
@@ -69,7 +69,7 @@ Example 1:\
 grep -i "ThIs" travel_guides/berlitz2/Cuba-WhatToDo.txt
 ```
 *Output*\
-![this](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-i%20this.png)
+![this](-ithis.png)
 
 Example 2:\
 *Command-line statement*
@@ -78,7 +78,7 @@ Example 2:\
 grep -i "PUERTO" travel_guides/berlitz2/Vallarta-History.txt
 ```
 *Output*\
-![puerto](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/-i%20puerto.png)
+![puerto](-ipuerto.png)
 
 **`grep "^query"`**\
 The ^query option helps us to match the lines that start with the specified query.
@@ -91,7 +91,7 @@ Example 1:\
 grep "^The" travel_guides/berlitz2/Vallarta-History.txt
 ```
 *Output*\
-![the](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/%5E%20the.png)
+![the](^the.png)
 
 Example 2:\
 *Command-line statement*
@@ -100,7 +100,7 @@ Example 2:\
 grep "^Gandhi" non-fiction/OUP/Rybczynski/ch3.txt
 ```
 *Output*\
-![gandhi](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/%5E%20gandhi.png)\
+![gandhi](^gandhi.png)\
 When no line starts with the speicfied query, it displays nothing.
 
 

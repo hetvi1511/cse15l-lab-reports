@@ -50,7 +50,7 @@ cd lab7/
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-I copy pasted these commands. So I used <Cntrl-C> to copy and <Cntrl-V> to paste these commands.\
+I copy pasted these commands. So I used `<Cntrl-C>` to copy and `<Cntrl-V>` to paste these commands.\
 The message that was displayed on the terminal was as follows:\
 ![runtest](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/runningtests.png)
 ## Step 7: Editting the code
@@ -61,8 +61,8 @@ nano ListExamples.java
 This opens the code in the terminal and allows us to edit the program. Refer the image below and make the required changes to your code for it to test 
 successfully.
 ![nano](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/nano.png)\
-After editting the code, press <Cntrl-O>, <enter>, <Cntrl-X>. This combination of commands saves the file and exits.\
-(The first command is pressing Control and then the alphabet o).\
+After editting the code, press `<Cntrl-O>`, `<enter>`, `<Cntrl-X>`. This combination of commands saves the file and exits.\
+(The first command is pressing Control and then the alphabet o).
 ## Step 8: Re-running the tests
 Now to check if our modified code runs properly, we need to run the tests again. For that, we type the following commands again.
 ```
@@ -71,7 +71,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 You can use <up> and <enter> to make the process faster.\
 This is what is displayed after running the tests again.\
-![rerun](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/rerun.png)\
+![rerun](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/rerun.png)
 ## Step 9: Commit and Push the changes to your account
 Type the following commands, in the same order. Refer to the image below to understand what to exoect at the terminal after every command.\
 ```

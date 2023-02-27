@@ -5,15 +5,15 @@ This week we had a very different Lab session compared to the previous ones. We 
 starting of the lab session and gave us 1 hour to prepare for those tasks. Then we had to compete with each other, whoever did it the fastest proceeded 
 to the next round and finally a winner would be announced.\
 The steps we were asked to do were as follows:
-> 1. Setup Delete any existing forks of the repository you have on your account
-> 2. Setup Fork the repository
-> 3. The real deal Start the timer!
-> 4. Log into ieng6
-> 5. Clone your fork of the repository from your Github account
-> 6. Run the tests, demonstrating that they fail
-> 7. Edit the code file to fix the failing test
-> 8. Run the tests, demonstrating that they now succeed
-> 9. Commit and push the resulting change to your Github account (you can pick any commit message!)\
+1. Setup Delete any existing forks of the repository you have on your account
+2. Setup Fork the repository
+3. The real deal Start the timer!
+4. Log into ieng6
+5. Clone your fork of the repository from your Github account
+6. Run the tests, demonstrating that they fail
+7. Edit the code file to fix the failing test
+8. Run the tests, demonstrating that they now succeed
+9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 ** NOTE ** : I had already setup generating a SSH Key of ieng6 and GitHub, which allowed me to login without using a password. This helped me do the tasks 
 quicker.\
 ## Step 1- Step 3
@@ -67,7 +67,7 @@ Now to check if our modified code runs properly, we need to run the tests again.
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-You can use <up> and <enter> to make the process faster.\
+You can use `<up>` and `<enter>` to make the process faster.\
 This is what is displayed after running the tests again.\
 ![rerun](rerun.png)
 ## Step 9: Commit and Push the changes to your account

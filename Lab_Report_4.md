@@ -37,3 +37,54 @@ ssh cs15lwi23apo@ieng6.ucsd.edu
 After typing this command press <enter>/<return> and the output you will see will be as follows:
 ![]()\
 ## Step 5: Cloning the forked repository
+For cloning the repository, use the following command-line command:\
+```
+git clone https://github.com/ucsd-cse15l-w23/lab7
+```
+This is the message that will be displayed after successfully cloning the repository.
+![]()\
+## Step 6: Run the tests, and show that they fail
+To run the tests, first make sure that your current directory is lab7. I changed my directory to lab7 and ran the tests.\
+```
+cd lab7/
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
+I copy pasted these commands. So I used <Command-C> to copy and <Command-V> to paste these commands.\
+The message that was displayed on the terminal was as follows:\
+![]()\
+## Step 7: Editting the code
+We need to fix the error for the tester to run correctly. To do that, we type the following command:\
+```
+nano ListExamples.java
+```
+This opens the code in the terminal and allows us to edit the program. Refer the image below and make the required changes to your code for it to test 
+successfully.\
+![]()\
+After editting the code, press <Ctrl-O>, <return>, <Ctrl-X>. This combination of commands saves the file and exits.\
+(The first command is pressing Control and then the alphabet o).\
+## Step 8: Re-running the tests
+Now to check if our modified code runs properly, we need to run the tests again. For that, we type the following commands again.
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
+You can use <up> and <enter> to make the process faster.\
+This is what is displayed after running the tests again.\
+![]()\
+## Step 9: Commit and Push the changes to your account
+Type the following commands, in the same order. Refer to the image below to understand what to exoect at the terminal after every command.\
+```
+git add ListExamples.java ListExamplesTests.class
+```
+```
+git commit -m "Fixed"
+```
+```
+git push git@github.com:hetvi1511/lab7.git
+```
+The "Fixed" in the second command can be anything you want, it should be something to indicate that you have changed the code, and now the tests work.\
+For the last step, the git link will be copied from your github account, in the lab7 repository.\
+This is what is displayed at the terminal after every step.\
+![]()\
+Don't forget to time yourself :))

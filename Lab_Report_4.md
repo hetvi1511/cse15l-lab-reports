@@ -37,7 +37,7 @@ ssh cs15lwi23apo@ieng6.ucsd.edu
 After typing this command press <enter>/<return> and the output you will see will be as follows:
 ![login](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/login.png)
 ## Step 5: Cloning the forked repository
-For cloning the repository, use the following command-line command:\
+For cloning the repository, use the following command-line command:
 ```
 git clone https://github.com/ucsd-cse15l-w23/lab7
 ```
@@ -73,7 +73,7 @@ You can use <up> and <enter> to make the process faster.\
 This is what is displayed after running the tests again.\
 ![rerun](https://github.com/hetvi1511/cse15l-lab-reports/blob/main/rerun.png)
 ## Step 9: Commit and Push the changes to your account
-Type the following commands, in the same order. Refer to the image below to understand what to exoect at the terminal after every command.\
+Type the following commands, in the same order. Refer to the image below to understand what to exoect at the terminal after every command.
 ```
 git add ListExamples.java ListExamplesTests.class
 ```

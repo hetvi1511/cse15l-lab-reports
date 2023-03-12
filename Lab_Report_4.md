@@ -61,7 +61,7 @@ This opens the code in the terminal and allows us to edit the program. Refer the
 successfully.
 ![nano](nano.png)\
 To edit the code I used `<down>` till I reached the line mentioned in the image above in green. Earlier the following line was `index1 += 1`, change that
-amd type `index2 += 1` to fix the code, so that the tests run successfully.
+and type `index2 += 1` to fix the code, so that the tests run successfully.
 
 
 After editting the code, press `<Cntrl-O>`, `<enter>`, `<Cntrl-X>`. This combination of commands saves the file and exits.\

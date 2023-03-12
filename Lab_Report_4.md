@@ -41,6 +41,7 @@ git clone https://github.com/ucsd-cse15l-w23/lab7
 ```
 This is the message that will be displayed after successfully cloning the repository.
 ![clone](clone.png)
+**NOTE:** Make sure to use the forked repository and the original repository.\
 ## Step 6: Run the tests, and show that they fail
 To run the tests, first make sure that your current directory is lab7. I changed my directory to lab7 and ran the tests.
 ```
@@ -59,6 +60,8 @@ nano ListExamples.java
 This opens the code in the terminal and allows us to edit the program. Refer the image below and make the required changes to your code for it to test 
 successfully.
 ![nano](nano.png)\
+To edit the code I used `<down>` till I reached the line mentioned in the image above in green. Earlier the following line was `index1 += 1`, change that
+amd type `index2 += 1` to fix the code, so that the tests run successfully.\
 After editting the code, press `<Cntrl-O>`, `<enter>`, `<Cntrl-X>`. This combination of commands saves the file and exits.\
 (The first command is pressing Control and then the alphabet o).
 ## Step 8: Re-running the tests

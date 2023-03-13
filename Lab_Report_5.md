@@ -42,7 +42,8 @@ Example 1:\
 find -empty
 ```
 *Output*\
-![empty1](empty1.png)
+![empty1](empty1.png)\
+When there are no empty files, it displays nothing.
 
 
 Example 2:\

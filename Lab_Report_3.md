@@ -104,4 +104,4 @@ grep "^Gandhi" non-fiction/OUP/Rybczynski/ch3.txt
 When no line starts with the speicfied query, it displays nothing.
 
 
-I did all my research on grep command-lne options from [GeeksForGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
+I did all my research on grep command-line options from [GeeksForGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).

@@ -102,7 +102,8 @@ Example 2:\
 find -mtime 1
 ```
 *Output*\
-![mtime2](mtime2.png)
+![mtime2](mtime2.png)\
+In both examples there's nothing displayed, this is because none of the files have been modified 20 days or 1 day before.
 
 
 There are many other queries which can further help us in finding the files we need. Trying them out can be interesting and fun !\
